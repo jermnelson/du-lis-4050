@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Guest Lecture for University of Denver LIS-4050 - Library and Information Technologies">
+    <meta name="author" content="Jeremy Nelson">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <title>
+        Guest Lecture for DU LIS-4050 - Library and Information Technologies
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" 
+      rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" 
+       rel="stylesheet">
+
+    <link href="{{ url_for('static', filename='css/default.css') }}" 
+       rel="stylesheet">
+
+  </head>
+
+  <body itemscope="" itemtype="http://schema.org/WebPage">
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-left">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                    <i class="fa fa-home"></i> Home
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropDownMenu">Pages</a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropDownMenu">
+                    <a class="dropdown-item" href="{{ url_for('display', name='brief-history') }}">
+                        Brief History
+                    </a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted float-right">Guest Lecture DU LIS 4050</h3>
+      </div>
+
+{% block main %}
+      <div class="jumbotron">
+        <h1 class="display-3">Jumbotron heading</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+      </div>
+{% endblock %}
+
+      <footer class="footer">
+        <p>&copy; Jeremy Nelson 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+    <script src="{{ url_for('static', filename='js/jquery.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script> 
+     </body>
+</html>

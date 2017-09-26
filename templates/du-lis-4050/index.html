@@ -1,0 +1,45 @@
+{% extends 'du-lis-4050/base.html' %}
+
+{% block main %}
+<div class="jumbotron">
+    <span itemprop="name">
+        <h1 class="display-3" >Library Technologies</h1>
+        <h2 class="display-4">Past, Present, &amp; Tomorrow</h2>
+    </span>
+    <p class="lead" itemprop="description">
+
+    </p>
+    <p>
+        <a class="btn btn-lg btn-success" href="#" role="button">Start
+            <i class="fa fa-arrow-right"></i>
+        </a>
+    </p>
+</div>
+
+<div class="row marketing">
+    <div class="col-lg-6">
+        <h4>{{ pages.get('brief-history').meta.title }}
+            <a href="{{ url_for('display', name='brief-history') }}"
+                class="btn btn-info btn-sm">Go</a>
+        </h4>
+        <p>{{ pages.get('brief-history').meta.description }}</p>
+       
+        <h4>{{ pages.get('ils').meta.title }}</h4>
+        <p>{{ pages.get('ils').meta.description }}</p>
+        <h4>{{ pages.get('www').meta.title }}</h4>
+        <p>{{ pages.get('www').meta.description }}</p>
+    </div>
+    <div class="col-lg-6">
+        <h4>Digital Repositories &amp; Discovery Layers</h4>
+        <p>
+
+        </p>
+        <h4>Linked Data &amp; Semantic Web</h4>
+        <p>
+           Linked Data and the Semantic Web &hellip;
+        </p>
+        <h4>More Information/Resources</h4>
+        <p>Resources and more &hellip;</p>
+    </div>
+</div>
+{% endblock %}
