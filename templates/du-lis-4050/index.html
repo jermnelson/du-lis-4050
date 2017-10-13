@@ -24,19 +24,31 @@
         </h4>
         <p>{{ pages.get('brief-history').meta.description }}</p>
        
-        <h4>{{ pages.get('ils').meta.title }}</h4>
+        <h4>{{ pages.get('ils').meta.title }}
+            <a href="{{ url_for('display', name='ils') }}"
+                class="btn btn-info btn-sm">Go</a>
+        </h4>
         <p>{{ pages.get('ils').meta.description }}</p>
-        <h4>{{ pages.get('www').meta.title }}</h4>
+        <h4>{{ pages.get('www').meta.title }}
+            <a href="{{ url_for('display', name='www') }}"
+                class="btn btn-info btn-sm">Go</a>
+        </h4>
         <p>{{ pages.get('www').meta.description }}</p>
     </div>
     <div class="col-lg-6">
-        <h4>Digital Repositories &amp; Discovery Layers</h4>
+        <h4>{{ pages.get('digital-repo-discovery').meta.title }}
+            <a href="{{ url_for('display', name='digital-repo-discovery') }}"
+               class="btn btn-info btn-sm">Go</a>
+        </h4>
         <p>
-
+            {{ pages.get('digital-repo-discovery').meta.description }}
         </p>
-        <h4>Linked Data &amp; Semantic Web</h4>
+        <h4>{{ pages.get('linked-data-semantic-web').meta.title }}
+            <a href="{{ url_for('display', name='linked-data-semantic-web') }}"
+               class="btn btn-info btn-sm">Go</a>
+        </h4>
         <p>
-           Linked Data and the Semantic Web &hellip;
+           {{ pages.get('linked-data-semantic-web').meta.description }}
         </p>
         <h4>More Information/Resources</h4>
         <p>Resources and more &hellip;</p>
