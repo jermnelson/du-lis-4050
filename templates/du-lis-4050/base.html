@@ -31,17 +31,29 @@
         <nav>
           <ul class="nav nav-pills float-left">
             <li class="nav-item">
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="{{ url_for('home') }}">
                     <i class="fa fa-home"></i> Home
                 </a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="pagesDropDownMenu">Pages</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" 
+                   href="#" id="pagesDropDownMenu">Pages</a>
                 <div class="dropdown-menu" aria-labelledby="pagesDropDownMenu">
                     <a class="dropdown-item" href="{{ url_for('display', name='brief-history') }}">
                         Brief History
                     </a>
-
+                    <a class="dropdown-item" href="{{ url_for('display', name='ils') }}">
+                       Integrated Library Systems
+                    </a>
+                    <a class="dropdown-item" href="{{ url_for('display', name='www') }}">
+                       World Wide Web
+                    </a>
+                    <a class="dropdown-item" href="{{ url_for('display', name='digital-repo-discovery') }}">
+                       Digital Repositories &amp; Discovery Layers
+                    </a>
+                    <a class="dropdown-item" href="{{ url_for('display', name='linked-data-semantic-web') }}">
+                       Linked Data &amp; Semantic Web
+                    </a>
                 </div>
             </li>
             <li class="nav-item">

@@ -8,9 +8,21 @@
             {{ page.meta.title }}
         </h1>
     </span>
-    <p class="lead" itemprop="description">
-
-    </p>
+    <p class="lead" itemprop="description">{{ page.meta.description }}</p>
 </div>
-
+ {{ page.html|safe }}
+<div class="btn-group">
+    {% if 'previous' in page.meta %}
+    <a href="{{ url_for('display', name=page.meta.previous) }}"
+       class="btn btn-warning">
+        <i class="fa fa-caret-left" aria-hidden="true"></i>
+    </a> 
+    {% endif %}
+    {% if 'next' in page.meta %}
+    <a href="{{ url_for('display', name=page.meta.next) }}"
+        class="btn btn-primary">
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+    </a>
+    {% endif %}
+</div>  
 {% endblock %}
