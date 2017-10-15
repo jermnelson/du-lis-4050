@@ -4,3 +4,14 @@ date: 2017-10-16
 previous: ils
 next: digital-repo-discovery
 
+While the term "World Wide Web" seems somewhat archaic in the 
+worlds of the monstrous corporate technologies giants as 
+Apple, Google, Amazon, Facebook, Twitter, all grew at their tremendous
+pace very much enabled by the Internet and the growth of websites
+and web technology. 
+
+## Google and Amazon
+
+## Facebook and Twitter Social Networks
+
+

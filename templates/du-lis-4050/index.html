@@ -7,7 +7,8 @@
         <h2 class="display-4">Past, Present, &amp; Tomorrow</h2>
     </span>
     <p class="lead">
-        Jeremy Nelson<br>Metadata &amp; Systems Librarian, Colorado College<br>
+        Jeremy Nelson<br>Metadata &amp; Systems Librarian, 
+        <a href="https://www.coloradocollege.edu/">Colorado College</a><br>
         Co-founder, CTO <a href="http://knowledgelinks.io/">KnowledgeLinks</a>
     </p>
     <p>
@@ -52,8 +53,11 @@
         <p>
            {{ pages.get('linked-data-semantic-web').meta.description }}
         </p>
-        <h4>More Information/Resources</h4>
-        <p>Resources and more &hellip;</p>
+        <h4>{{ pages.get('bibcat').meta.title }}
+            <a href="{{ url_for('display', name='bibcat') }}"
+                class="btn btn-info btn-sm">Go</a>
+        </h4>
+        <p>{{ pages.get('bibcat').meta.description }}</p>
     </div>
 </div>
 {% endblock %}

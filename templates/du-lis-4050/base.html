@@ -31,12 +31,13 @@
         <nav>
           <ul class="nav nav-pills float-left">
             <li class="nav-item">
-              <a class="nav-link active" href="{{ url_for('home') }}">
+              <a class="nav-link {% if request.path|length == 1 %}active{% endif %}" href="{{ url_for('home') }}">
                     <i class="fa fa-home"></i> Home
                 </a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" 
+                <a class="nav-link dropdown-toggle {% if request.path|length > 1 and not request.path.endswith('about') %}active{% endif %}" 
+                   data-toggle="dropdown" 
                    href="#" id="pagesDropDownMenu">Pages</a>
                 <div class="dropdown-menu" aria-labelledby="pagesDropDownMenu">
                     <a class="dropdown-item" href="{{ url_for('display', name='brief-history') }}">
@@ -57,7 +58,7 @@
                 </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link {% if request.path.endswith('about') %}active{% endif %}" href="{{ url_for('display', name='about') }}">About</a>
             </li>
           </ul>
         </nav>

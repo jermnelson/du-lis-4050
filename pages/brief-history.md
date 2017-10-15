@@ -31,8 +31,6 @@ In 1877, [Melvil Dewey][DEWEY]  guided the adoption of two standard sizes for
 library cards; the Harvard College size of 5 x 12.25 cm and the more
 widely used size of 7.5 x 12.25 cm. [#]_ Dewey, through the library 
 supply company he founded the Library Bureau, offered a card catalog 
-cabinets, special typewriters like the one pictured here.
-
-
+cabinets and special typewriters.
 
 [DEWEY]: https://en.wikipedia.org/wiki/Melvil_Dewey
