@@ -36,5 +36,58 @@ access points and the other was in the commercial data services of the time, lik
 access to a number of full-text journal databases, the service still exists as
 a product from ProQuest.
 
+The market for library automation platforms is dominated by a few large
+private corporations, often with multiple product lines that blur the
+largely marketing categories of library systems, including commercial
+integrated library systems (ILS), discovery services, and the latest 
+term, library services platforms. The main differences between an ILS
+and library services platforms have to do more with infrastructure and 
+implementation than necessarily new end-user functionality although most
+focus on a single-search interface to increasingly larger databases of
+both local and remote resources owned by the library.
+
+## Library Systems Vendors
+Every year, Marshall Breeding releases a report on the state of library
+systems and technology with the [2017 report](https://americanlibrariesmagazine.org/2017/05/01/library-systems-report-2017/)
+providing the following details:
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Major Products/Services</th>
+            <th>Total Installations</th>
+            <th>New 2016 Contracts</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ex Libris (subsidiary of ProQuest)</td>
+            <td>Alma<br>Summons<br>Primo<br>Aleph<br>Voyager</td>
+            <td>829 </td>
+            <td>132</td>
+        </tr>
+        <tr>
+            <td>Innovative Interfaces</td>
+            <td>Millennium<br>Sierra<br>Polaris</td>
+            <td>1,888</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>OCLC</td>
+            <td>WorldShare Management platform</td>
+            <td>500</td>
+            <td>83</td>
+        </tr>
+        <tr>
+            <td>SirsiDynix</td>
+            <td>Horizon<br>Symphony<br>BLUEcloud</td>
+            <td>2,573</td>
+            <td>173</td>
+        </tr>
+    </tbody>
+</table>
+
 [DIALOG]: http://en.wikipedia.org/wiki/DIALOG
 [MRC]: http://www.loc.gov/marc/

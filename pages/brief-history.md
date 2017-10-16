@@ -13,9 +13,11 @@ as articulated by [Panizzi](https://en.wikipedia.org/wiki/Anthony_Panizzi),
 
 In the history of library technology, the concept for a card catalog 
 dates from the late 1700 in France where the back of playing cards were
-used in the library card catalog [#]_. Prior to that date, most catalogs were 
+used in the [library card catalog](http://liswiki.org/wiki/History_of_the_card_catalog). 
+Prior to that date, most catalogs were 
 bound books usually organized by either the author's name, chronologically by the date of 
-the subject, by title, by donor, and by the size of book. [#]_ 
+the subject, by title, by donor, and by the size of book. 
+<sup><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC198257/">source</a></sup> 
 
 Harvard University, starting in the early 1800s, created a "slip catalogue"
 where all of the Harvard Library's titles were cut out from a printed book
@@ -25,11 +27,12 @@ inch size for catalog Other libraries began creating card catalogs
 as well but the use of these card catalogs was primarily by staff and it 
 wasn't until the 1860s that Harvard created two card catalogs; a Public
 Catalog and an Official Catalog for use by the Harvard cataloging 
-department.  
+department <sup><a href="http://www.libraryhistorybuff.org/catalog-cards-harvard.htm">source</a></sup>.  
 
 In 1877, [Melvil Dewey][DEWEY]  guided the adoption of two standard sizes for 
 library cards; the Harvard College size of 5 x 12.25 cm and the more
-widely used size of 7.5 x 12.25 cm. [#]_ Dewey, through the library 
+widely used size of 7.5 x 12.25 cm. <sup><a href="http://www.libraryhistorybuff.org/cardcatalog-evolution.htm">source</a></sup> 
+Dewey, through the library 
 supply company he founded the Library Bureau, offered a card catalog 
 cabinets and special typewriters.
 

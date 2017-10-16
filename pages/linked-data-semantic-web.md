@@ -36,6 +36,18 @@ resource with the second element, the **predicate**, describing an aspect that
 connects to the third element, an **object** made up a value, blank node, or
 IRI. One or more these triple statements make up a RDF graph. 
 
+## SPARQL and the Semantic Web
+The real power of RDF Linked Data comes when it is paired with a Triplestore
+that supports the RDF query language, [SPARQL](https://www.w3.org/TR/sparql11-query/)
+(short for SPARQL Protocol and RDF Query Language), allows for sophisticated 
+retrieval of data within the triplestore as well as an means to manipulate the data
+by adding, editing, or deleting triples contained in the triplestore. 
+
+With RDF Linked Data coupled with SPARQL as enabled technologies for the 
+"Semantic Web" a term initially created by Sir Tim Berners-Lee to describe web 
+resources with a set of actionable metadata by algorithms and other machine
+processing. 
+
 
 [MRC]: http://www.loc.gov/marc/ 
 [RDF]: https://www.w3.org/RDF/
